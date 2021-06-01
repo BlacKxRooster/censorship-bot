@@ -18,10 +18,10 @@ async def on_message(message):
 
 
 # its the bad words..
-    badWord = ['nigger', 'nigga', 'nigguh']
+    badWord = ['word1', 'word2', 'word3']
 
-# these are for brian.
-    propGram = ['right quick', 'rite quick', 'rite quik', 'ryte quic']
+# these are for grammar nazis
+    propGram = ['phrase 1', 'phrase 2']
 
     if any(word in msg_content for word in propGram):
         await message.channel.send("Use correct Grammar :smile:")
